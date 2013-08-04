@@ -55,7 +55,8 @@ must be set to ```html```.
 Type: ```string```
 Default: ```global```
 
-Specifies where to place the resultant template
+Specifies where to place the resultant template. Specify ```amd``` to wrap
+the template in an AMD define statement.
 
 *Defined only for target == 'js'.*
 
